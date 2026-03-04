@@ -2,6 +2,11 @@ import Link from "next/link";
 import { ArrowRight, Github, Instagram, Mail } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 
+export const metadata = {
+  title: "Matthew Arcaro | Software Engineering & Cybersecurity",
+  description:
+    "Portfolio of Matthew Arcaro — Software Engineering & Cybersecurity student building real-world applications and securing systems.",
+};
 
 export default function Home() {
   return (

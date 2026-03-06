@@ -43,6 +43,16 @@ export default function Navbar() {
               <Code2 className="w-4 h-4" /> Projects
             </Link>
             <Link 
+              href="/Cyber" 
+              className={`text-sm flex items-center gap-1 transition-colors ${
+                pathname === '/Cyber' 
+                  ? 'text-[#00BFFF] font-semibold' 
+                  : 'text-[#F0EEE9]/70 hover:text-[#00BFFF]'
+              }`}
+            >
+              <Code2 className="w-4 h-4" /> CyberSecurity Skills
+            </Link>
+            <Link 
               href="/about" 
               className={`text-sm flex items-center gap-1 transition-colors ${
                 pathname === '/about' 
